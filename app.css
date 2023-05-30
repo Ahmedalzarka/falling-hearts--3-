@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@200;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Chivo', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+.heart{
+    font-size: 22px;
+    position: fixed;
+    top: -3vh;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+}
+@keyframes fall {
+    to{
+        transform: translateY(105vh);
+    }
+}
